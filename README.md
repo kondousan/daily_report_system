@@ -23,14 +23,17 @@
 * javax.servlet.jsp.jstl-api(1.2.1)
 
 # Usage
+GitHubからプロジェクトをclone（ダウンロード）します。
  
-DEMOの実行方法など、"hoge"の基本的な使い方を説明する
- 
-```bash
-git clone https://github.com/hoge/~
-cd examples
-python demo.py
 ```
- 
+$ git clone https://github.com/kondousan/daily_report_system.git
+```
+- Eclipseにインポートします。
+- Tomcatの構成済みのリソースに追加します。
+- 以下のファイルの接続タブを表示します。
+
+　　/daily_report_system/src/META-INF/persistence.xml
+- URL・ユーザー・パスワードをお使いのMySQLの情報に変更し、保存します。 
+
 # Author
 * Iori Kondo
